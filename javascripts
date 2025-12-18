@@ -1,0 +1,14 @@
+function connectBluetooth() {
+    // محاكاة الاتصال بالبلوتوث
+    alert('جاري فحص الأجهزة المتاحة...');
+    // مثال على واجهة برمجية Web Bluetooth
+    navigator.bluetooth.requestDevice({ acceptAllDevices: true })
+        .then(device => alert(`تم الاتصال بالجهاز: ${device.name}`))
+        .catch(err => console.error('حدثت مشكلة في الاتصال: ', err));
+}
+
+function connectWiFi() {
+    // محاكاة وظيفة الواي فاي
+    alert('جارِ الاتصال بالشبكة...');
+    setTimeout(() => alert('تم الاتصال بنجاح! 🚀'), 2000);
+}
