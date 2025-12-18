@@ -1,0 +1,130 @@
+[
+  {
+    "brand": "Xiaomi",
+    "model": "Mi Electric Scooter Pro 2",
+    "image_url": "https://example.com/xiaomi-pro2.png",
+    "specs": {
+      "max_speed": "25km/h",
+      "range": "45km",
+      "battery": "474Wh",
+      "weight": "14.2kg"
+    },
+    "errors": [
+      { "code": "E001", "description": "مشكلة في البطارية", "solution": "استبدال البطارية أو إصلاح التوصيلات" },
+      { "code": "E002", "description": "ارتفاع درجة حرارة المحرك", "solution": "إيقاف التشغيل والتحقق من التبريد" }
+    ]
+  },
+  {
+    "brand": "Ninebot",
+    "model": "Segway MAX G30",
+    "image_url": "https://example.com/segway-max.png",
+    "specs": {
+      "max_speed": "30km/h",
+      "range": "65km",
+      "battery": "551Wh",
+      "weight": "19.3kg"
+    },
+    "errors": [
+      { "code": "E101", "description": "اتصال البلوتوث مفقود", "solution": "أعد تشغيل البلوتوث وحاول مرة أخرى" },
+      { "code": "E102", "description": "عطل في الفرامل", "solution": "التحقق من أداء الفرامل واستبدال الحساسات" }
+    ]
+  },
+  {
+    "brand": "Dualtron",
+    "model": "Thunder II",
+    "image_url": "https://example.com/dualtron-thunder.png",
+    "specs": {
+      "max_speed": "100km/h",
+      "range": "170km",
+      "battery": "2268Wh",
+      "weight": "47.3kg"
+    },
+    "errors": [
+      { "code": "E201", "description": "خلل في نظام التحكم الكهربائي", "solution": "إعادة ضبط النظام الكهربائي أو فحص وحدة التحكم" },
+      { "code": "E202", "description": "ارتفاع حرارة البطارية", "solution": "إيقاف الشحن والتحقق من سلامة البطارية" }
+    ]
+  },
+  {
+    "brand": "Apollo",
+    "model": "Phantom",
+    "image_url": "https://example.com/apollo-phantom.png",
+    "specs": {
+      "max_speed": "61km/h",
+      "range": "64km",
+      "battery": "1216Wh",
+      "weight": "34.7kg"
+    },
+    "errors": [
+      { "code": "E301", "description": "تذبذب في الطاقة أثناء القيادة", "solution": "فحص كابل الاتصال بين البطارية والمحرك" }
+    ]
+  },
+  {
+    "brand": "Kaabo",
+    "model": "Wolf Warrior 11+",
+    "image_url": "https://example.com/kaabo-wolfwarrior.png",
+    "specs": {
+      "max_speed": "80km/h",
+      "range": "150km",
+      "battery": "2100Wh",
+      "weight": "46kg"
+    },
+    "errors": [
+      { "code": "E401", "description": "ارتفاع حرارة العجلة الأمامية", "solution": "إيقاف الاستخدام والتحقق من المحرك الأمامي" }
+    ]
+  },
+  {
+    "brand": "E-Twow",
+    "model": "Booster V",
+    "image_url": "https://example.com/etwow-booster.png",
+    "specs": {
+      "max_speed": "25km/h",
+      "range": "35km",
+      "battery": "290Wh",
+      "weight": "10.8kg"
+    }
+  },
+  {
+    "brand": "Razor",
+    "model": "EcoSmart Metro",
+    "image_url": "https://example.com/razor-ecosmart.png",
+    "specs": {
+      "max_speed": "29km/h",
+      "range": "19km",
+      "battery": "500Wh",
+      "weight": "26kg"
+    }
+  },
+  {
+    "brand": "Unagi",
+    "model": "Model One E500",
+    "image_url": "https://example.com/unagi-one.png",
+    "specs": {
+      "max_speed": "27km/h",
+      "range": "24km",
+      "battery": "900Wh",
+      "weight": "12kg"
+    }
+  },
+  {
+    "brand": "TurboAnt",
+    "model": "X7 Pro",
+    "image_url": "https://example.com/turboant-x7.png",
+    "specs": {
+      "max_speed": "32km/h",
+      "range": "48km",
+      "battery": "360Wh",
+      "weight": "15kg"
+    }
+  },
+  {
+    "brand": "Inokim",
+    "model": "OX Super+",
+    "image_url": "https://example.com/inokim-ox.png",
+    "specs": {
+      "max_speed": "45km/h",
+      "range": "100km",
+      "battery": "1256Wh",
+      "weight": "26.7kg"
+    }
+  }
+]
