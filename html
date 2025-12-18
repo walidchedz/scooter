@@ -1,0 +1,10 @@
+<div>
+    <label for="upload-schematic">رفع ملف صيانة:</label>
+    <input type="file" accept="application/pdf" id="upload-schematic">
+</div>
+<script>
+    document.getElementById("upload-schematic").addEventListener('change', function(event) {
+        const file = event.target.files[0];
+        alert(`تم رفع ملف: ${file.name}`);
+    });
+</script>
