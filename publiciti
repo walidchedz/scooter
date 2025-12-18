@@ -1,0 +1,27 @@
+if (section === 2) {
+    sectionHtml = `<b>سوق القطع:</b><br>
+        <button onclick="addListing()">إضافة إعلان</button><br>
+        <div id="listings"><i>جاري تحميل الإعلانات...</i></div>`;
+
+    loadListings();
+}
+
+// دالة لإضافة إعلان
+function addListing() {
+    const title = prompt('أدخل عنوان الإعلان:');
+    if (title) {
+        const listings = JSON.parse(localStorage.getItem('listings')) || [];
+        listings.push(title);
+        localStorage.setItem('listings', JSON.stringify(listings));
+        loadListings();
+    }
+}
+
+// دالة لتحميل الإعلانات
+function loadListings() {
+    const listings = JSON.parse(localStorage.getItem('listings')) || [];
+    const listingDiv = document.getElementById('listings');
+    listingDiv.innerHTML = listings.length
+        ? listings.map(title => `<div>${title}</div>`).join('')
+        : '<i>لا توجد إعلانات</i>';
+}
