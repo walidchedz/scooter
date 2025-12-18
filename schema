@@ -1,0 +1,4 @@
+if (section === 3) {
+    sectionHtml = `<b>المخططات/دليل الصيانة:</b><br>
+        <img src="https://via.placeholder.com/400" alt="مخطط السكوتر" style="width:100%;border:1px solid #ccc" />`;
+}
